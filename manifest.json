@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Calendar Events Extension",
+    "description": "A simple popup calendar displaying holidays for the selected country.",
+    "version": "1.0",
+    "permissions": [
+        "storage"
+    ],
+    "action": {
+        "default_popup": "index.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "public/calendar_icon_16x16.png",
+        "32": "public/calendar_icon_32x32.png",
+        "48": "public/calendar_icon_48x48.png",
+        "128": "public/calendar_icon_128x128.png"
+    }
+}
