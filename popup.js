@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
     //Access saved country from chrome storage
     let savedCountry = '';
     chrome.storage.local.get('savedCountry', function (data) {
-      savedCountry = data.savedCountry;
+      savedCountry = data.savedCountry || 'US';
     });
     fetch('https://date.nager.at/api/v3/AvailableCountries')
       .then(response => response.json())
