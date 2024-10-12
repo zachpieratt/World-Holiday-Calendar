@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Calendar Events Extension",
+    "name": "World Holiday Calendar",
     "description": "An intuitive popup calendar extension that displays public holidays for the selected country.",
     "version": "1.0",
     "permissions": [
